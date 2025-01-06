@@ -42,13 +42,8 @@
             Round++;
         }
         while (Round < 11);
-        
+
         Console.Clear();
         Console.WriteLine("Dice Game was closed.");
-    }
-    public static void RandomRoll()
-    {
-        Random random = new Random();
-        int Roll = random.Next(1, 7);
     }
 }
